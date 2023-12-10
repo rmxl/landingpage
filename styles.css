@@ -173,7 +173,7 @@ li {
 .thequote {
   font-size: 36px;
   font-style: italic;
-  padding: 150px 150px 0 150px;
+  padding: 150px 150px 10px 150px;
 }
 
 .author {
@@ -182,4 +182,46 @@ li {
   font-weight: 700;
   padding-right: 150px;
   padding-bottom: 150px;
+}
+
+.footer {
+  /* justify-self: center; */
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 100px auto;
+  max-width: 1000px;
+  border-radius: 20px;
+  padding: 0 100px;
+  background-color: #3882F6;
+  flex-basis: auto;
+  /* max-width: 800px; */
+}
+
+.words {
+  padding: 50px 20px;
+  /* border-radius */
+}
+
+.words .call {
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}
+.words .ask {
+  color: white
+}
+
+.button2 {
+  align-self: center;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding: 8px;
+  font-size: 24px;
+  margin-right: 50px;
+  width: 160px;
+  background-color: #3882F6;
+  border-color: white;
+  border-radius: 10px;
 }
