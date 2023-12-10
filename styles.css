@@ -62,7 +62,7 @@ li {
   gap: 50px;
   background-color: #1F2937;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   justify-content: space-between;
 }
 
@@ -162,3 +162,24 @@ li {
   border-radius: 20px;
 }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  text-align: justify;
+  color: #1F2937;
+}
+
+.thequote {
+  font-size: 36px;
+  font-style: italic;
+  padding: 150px 150px 0 150px;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 700;
+  padding-right: 150px;
+  padding-bottom: 150px;
+}
